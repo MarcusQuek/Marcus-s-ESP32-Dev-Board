@@ -5568,6 +5568,12 @@
 		(uuid "539e9e8d-4843-44a2-8f1d-d303d754fe33")
 	)
 	(junction
+		(at 44.45 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c1fa6f7-04d2-489e-8af3-84784af2a54d")
+	)
+	(junction
 		(at 44.45 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5931,6 +5937,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 113.03) (xy 21.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2534a1d6-101a-4d76-b856-e957c7c9a6ab")
+	)
+	(wire
+		(pts
 			(xy 33.02 213.36) (xy 29.21 213.36)
 		)
 		(stroke
@@ -6181,6 +6197,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 118.11) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44531ec6-10d5-45be-8ccb-2aa86e8f4230")
+	)
+	(wire
+		(pts
 			(xy 41.91 110.49) (xy 44.45 110.49)
 		)
 		(stroke
@@ -6258,6 +6284,16 @@
 			(type default)
 		)
 		(uuid "4b6b51a5-b51f-4330-8a2c-c5cd9b89f026")
+	)
+	(wire
+		(pts
+			(xy 16.51 106.68) (xy 16.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3ee4af-dbb9-43cb-a800-41074ce91324")
 	)
 	(wire
 		(pts
@@ -6381,6 +6417,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 105.41) (xy 44.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660eadd5-0bfe-4e09-a3b7-5f7ed01159a8")
+	)
+	(wire
+		(pts
 			(xy 121.92 217.17) (xy 125.73 217.17)
 		)
 		(stroke
@@ -6418,16 +6464,6 @@
 			(type default)
 		)
 		(uuid "695447e1-f514-4c70-96e8-c80977406c88")
-	)
-	(wire
-		(pts
-			(xy 20.32 115.57) (xy 31.75 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a14cc8c-82e1-4931-9f9f-7ff169adf594")
 	)
 	(wire
 		(pts
@@ -6541,6 +6577,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8152e890-cc56-4928-8f17-3fda5a0cd64e")
+	)
+	(wire
+		(pts
 			(xy 123.19 121.92) (xy 135.89 121.92)
 		)
 		(stroke
@@ -6578,6 +6624,16 @@
 			(type default)
 		)
 		(uuid "8bd3d32d-3d84-4b7e-967c-4bb86dcb8001")
+	)
+	(wire
+		(pts
+			(xy 21.59 115.57) (xy 31.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf919c4-61ac-4c9c-9242-18c2e6dc3fb0")
 	)
 	(wire
 		(pts
@@ -6698,6 +6754,16 @@
 			(type default)
 		)
 		(uuid "97d65edb-33fd-49cc-b6ce-b053a1750f82")
+	)
+	(wire
+		(pts
+			(xy 21.59 105.41) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a689a99-6fc5-4df8-bbcc-5d06f01b4714")
 	)
 	(wire
 		(pts
@@ -6961,7 +7027,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 99.06) (xy 44.45 110.49)
+			(xy 44.45 99.06) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7168,16 +7234,6 @@
 			(type default)
 		)
 		(uuid "e9cde706-e102-49cc-9708-9d1b3cae8c39")
-	)
-	(wire
-		(pts
-			(xy 20.32 118.11) (xy 31.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb3e470d-383c-4006-afda-19056b5fe43e")
 	)
 	(wire
 		(pts
@@ -7910,7 +7966,7 @@
 		(uuid "b7f1dc34-4fe4-451d-a737-783dbaae1b5e")
 	)
 	(label "I2C0 SDA"
-		(at 20.32 115.57 0)
+		(at 21.59 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8130,7 +8186,7 @@
 		(uuid "e8e7a31d-0ea1-4455-ad85-c6680460d9ee")
 	)
 	(label "I2C0 SCL"
-		(at 20.32 118.11 0)
+		(at 21.59 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9395,6 +9451,76 @@
 			(project "Marcus's ESP32 Dev Board"
 				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 16.51 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "294c40d1-937a-457f-a836-a6c51a386ca0")
+		(property "Reference" "R13"
+			(at 19.05 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k7R"
+			(at 19.05 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 18.288 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 16.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01724f44-a49f-4a0b-b8b3-fa923a564139")
+		)
+		(pin "2"
+			(uuid "650d2da6-874a-4593-bf9b-a73507f8f659")
+		)
+		(instances
+			(project "Marcus's ESP32 Dev Board"
+				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14537,6 +14663,76 @@
 			(project "Marcus's ESP32 Dev Board"
 				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d287ea99-7918-4dba-9b1a-5576bc388240")
+		(property "Reference" "R11"
+			(at 24.13 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k7R"
+			(at 24.13 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 23.368 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e7433ba-4a5f-4ee6-b8ed-3907fff8d793")
+		)
+		(pin "2"
+			(uuid "f45b2211-bf17-4a09-9765-3d96be79f5fe")
+		)
+		(instances
+			(project "Marcus's ESP32 Dev Board"
+				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
