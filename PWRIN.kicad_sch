@@ -1644,6 +1644,16 @@
 		)
 		(uuid "09b1ad10-b722-4af7-9fe6-a894717be9f3")
 	)
+	(text "This is NOT ESD PROTECTED"
+		(exclude_from_sim no)
+		(at 73.66 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2df68560-cbc7-40dc-97fa-c247522405ab")
+	)
 	(text "Voltage feedback pin"
 		(exclude_from_sim no)
 		(at 227.584 123.444 0)
@@ -1763,6 +1773,16 @@
 			)
 		)
 		(uuid "ea306737-928f-432f-9141-79c40434b61c")
+	)
+	(text "This is rated for 600mA\nIf everything on the board is running\nat max power, especially the haptic\ndrivers and ESP32 wifi/bluetooth, we will\nbrownout\nSo dont run everything at once"
+		(exclude_from_sim no)
+		(at 72.644 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea39062f-b2db-4a41-b9e0-33966d68e492")
 	)
 	(junction
 		(at 142.24 114.3)
@@ -2671,76 +2691,6 @@
 			(project "Marcus's ESP32 Dev Board"
 				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a/4872fb63-baee-41a4-9464-e6cc8d4aec48"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 52.07 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f9aa2c1-5f35-431b-a657-18394cd2fd10")
-		(property "Reference" "C11"
-			(at 55.88 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 55.88 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.0352 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fd7e388-5e94-4b44-a621-4227aa3d9b39")
-		)
-		(pin "2"
-			(uuid "e1234509-72f5-46bb-90f9-221909a883ba")
-		)
-		(instances
-			(project "Marcus's ESP32 Dev Board"
-				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a/4872fb63-baee-41a4-9464-e6cc8d4aec48"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4511,6 +4461,76 @@
 			(project "Marcus's ESP32 Dev Board"
 				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a/4872fb63-baee-41a4-9464-e6cc8d4aec48"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2a835f5-b3be-44fd-95bc-6bf2eb5b3789")
+		(property "Reference" "C41"
+			(at 55.88 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 55.88 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 53.0352 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3ca07df-442f-4fd9-b92c-4d18c55454c6")
+		)
+		(pin "1"
+			(uuid "55ef7a38-cb02-4420-a4ee-2effec90eee7")
+		)
+		(instances
+			(project "Marcus's ESP32 Dev Board"
+				(path "/bcb46d91-82bf-45dd-a940-c6de67888d6a/4872fb63-baee-41a4-9464-e6cc8d4aec48"
+					(reference "C41")
 					(unit 1)
 				)
 			)
